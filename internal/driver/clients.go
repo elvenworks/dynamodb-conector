@@ -25,7 +25,6 @@ func GetAWSDynamoDBClient(accessKeyID string, secretAccessKey string, region str
 			return nil, err
 		}
 		cfg.Region = region
-
 	}
 
 	return dynamodb.NewFromConfig(cfg), nil
