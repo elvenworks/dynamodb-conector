@@ -1,9 +1,9 @@
-# Simple AWS Dynamodb Connector for Go
+# Simple AWS Dynamodb Connector 
 
  [![SDK Documentation](https://img.shields.io/badge/SDK-Documentation-blue)](https://aws.github.io/aws-sdk-go-v2/docs/) [![API Reference](https://img.shields.io/badge/api-reference-blue.svg)](https://pkg.go.dev/mod/github.com/aws/aws-sdk-go-v2) 
 
 
-`dynamodb-conector` is a simple client AWS DynamoDB for the Go programming language to perform basic operations on a table. 
+`dynamodb-conector` is a simple client AWS DynamoDB for perform basic operations on a table. 
 This connector use the v2 SDK to make an API request using the SDK's Amazon DynamoDB client.
 
 This version requires a minimum version of `Go 1.15`.
